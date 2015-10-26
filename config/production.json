@@ -1,0 +1,32 @@
+{
+  "name": "EMCOLLECTOR",
+  "DataProcess":{
+    "host": "127.0.0.1"
+  , "port": 3021
+  , "url": ""
+  },
+  "port": 60821,
+  "db": {
+    "url": "mongodb://42.120.42.45/EnergyManage"
+  },
+
+  "mode": "RELEASE", //运行模式 RELEASE:正常模式/SIMULATE:模拟器模式(不会写入数据库)
+
+  "RDS":{
+    "host": "rdsc1xp4lkbnk331r91z.mysql.rds.aliyuncs.com",
+    "port": 3306,
+    "username": "emcollector",
+    "passwd": "8a5949b989a96eb46dc980735bb13cd2",
+    "db": "energymanage"
+  },
+
+  "printToConsole": true,
+  "printToLog": false,
+
+  "appid":"EMe374f490bdc411e4864359c68eeb10e7",
+  "appsecret":"c4b7a590ef859f8443cd631375dc0485",
+  "apihost":"127.0.0.1",
+  "apiport":8005,
+  "apiurl":"/api",
+  "MaxControlIndex": 32 //最大透传命令个数
+}

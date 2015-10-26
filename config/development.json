@@ -1,0 +1,9 @@
+{
+    "name": "AutoDeploy",
+    "port": 9900,
+
+    "printToConsole": true,
+    "printToLog": false,
+
+    "secret": "TESTSECRET"
+}
